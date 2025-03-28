@@ -4,7 +4,7 @@ create table categoria (
   descricao text
 );
  create table livros (
-    id_livro int not null primary key identity;
+    id_livro int not null primary key identity(1,1);
     titulo varchar(100),
     isbn varchar(13),
     id_autor int,
