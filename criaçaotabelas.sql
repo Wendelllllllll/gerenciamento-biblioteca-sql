@@ -1,6 +1,6 @@
 CREATE TABLE autores (
     id_autor INT PRIMARY KEY IDENTITY(1,1),
-    nome VARCHAR(50),
+    nome VARCHAR(100),
     sobrenome VARCHAR(50),
     data_nascimento DATE,
     nacionalidade VARCHAR(50)
